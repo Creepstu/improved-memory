@@ -1,0 +1,69 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Kumpulan Peribahasa Melayu\n[group of Malay proverbs]", HidePremium = false, SaveConfig = true, ConfigFolder = "KPMelayu", IntroEnabled = true, IntroText = "Screepstu"})
+
+local Tab = Window:MakeTab({
+	Name = "Peribahasa²\n[proverbs]",
+	Icon = "rbxassetid://12997312870",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Kumpulan Peribahasa Melayu"
+})
+
+Tab:AddParagraph("Katak di bawah tempurung","Orang yang sangat cetek pengetahuan dan pengelaman hidup.")
+
+Tab:AddParagraph("Katak ditimpa kemarau","Berkeluh-kesah dengan tidak keruan.")
+
+Tab:AddParagraph("Katak hendak jadi lembu","Ingin melakukan sesuatu yang melebihi kesanggupan sendiri, hendak menyamai orang besar, orang kaya dan sebagainya.")
+
+Tab:AddParagraph("Alim bagai katak tepi air","Orang yang kaya ilmu tetapi tidak mendapat faedah daripada ilmunya.")
+
+Tab:AddParagraph("Dayung sudah di tangan, perahu sudah di air","Segala-gala yang dikehendaki sudah diperoleh.")
+
+Tab:AddParagraph("Yang lama dikelek, yang baharu didukung","Adat yang lama tetap diamalkan di samping budaya hidup yang baru.")
+
+Tab:AddParagraph("Seperti lembu dicucuk hidung","Orang yang selalu menurut kemahuan orang lain.")
+
+Tab:AddParagraph("Tak lapuk dek hujan, tak lekang dek panas","Adat yang tidak berubah; sesuatu yang tetap utuh.")
+
+Tab:AddParagraph("Bagai kaca terhempas ke batu","Sangat sedih atau kecewa.")
+
+Tab:AddParagraph("Bulat air kerana pembetung, bulat manusia kerana muafakat","Kata sepakat yang dicapai dalam mesyuarat.")
+
+Tab:AddParagraph("Bagai aur dengan tebing","Hubungan yang rapat antara sama sama yang lain dan saling bantu-membantu.")
+
+Tab:AddParagraph("Berat sama dipikul, ringan sama dijinjing","mengalami susah senang bersama-sama.")
+
+Tab:AddParagraph("Bara yang digenggam biar sampai jadi arang","Mengerjakan sesuatu yang sukar hendaklah sabar, sehingga mencapai kejayaan.")
+
+Tab:AddParagraph("Hujan emas di negeri orang, hujan batu di negeri sendiri, lebih\nbaik di negeri sendiri","Walau bagaimanapun kelebihan di negara orang, tetap negeri sendiri lebih baik lagi.")
+
+Tab:AddParagraph("Melentur buluh biarlah dari rebungnya","Mendidik anak biarlah sejak mereka kecil lagi.")
+
+Tab:AddParagraph("Duduk sama rendah, berdiri sama tinggi","Dua orang atau pihak yang sama darjat dalam adat.")
+
+Tab:AddParagraph("Yang berat sama dipikul, yang ringan sama dijinjing","Bersama-sama menghadapi atau mengerjakan sesuatu.")
+
+Tab:AddParagraph("Kalau takut dilambung ombak, jangan berumah di tepi pantai","Kalau takut berhadapan dengan penderitaan, lebih baik jangan melakukan sesuatu yang susah.")
+
+Tab:AddParagraph("Indah khabar daripada rupa","Perkhabaran tentang sesuatu perkara yang dilebih-lebihkan.")
+
+Tab:AddParagraph("Hati gajah sama dilapah, hati kuman sama dicecah","Pengagihan yang sama banyak.")
+
+Tab:AddParagraph("Bukit sama didaki, lurah sama dituruni","Perhubungan yang sangat akrab, susah senang bersama.")
+
+Tab:AddParagraph("Kacang lupakan kulit","Orang yang melupakan asalnya atau orang yang pernah menolongnya setelah mendapat kesenangan.")
+
+local Tab = Window:MakeTab({
+	Name = "Lain²\n[others]",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Lain-lain"
+})
+
+Tab:AddParagraph("Made by...","Roblox: @SKEPPY0_0MAN, Discord: sudirman#0700, NOphone: +6019-241 2392\nRoblox: @AnyaForgerAnime212, Discord: Anya Forger Anime#5462, NOphone: +6010-275 5376\nRoblox: @hakinoose, Discord: hakinoose#3499, NOphone: +6011-5551 8051")
